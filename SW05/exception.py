@@ -13,4 +13,6 @@ except (ValueError, ZeroDivisionError):
 else:
     print("only when no exception")
 
+
+
 print(age)
