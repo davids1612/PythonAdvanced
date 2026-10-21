@@ -13,3 +13,15 @@ print(x.value)
 print(type(x.value))
 print(type(x.name))
 
+
+color1 = Color.RED
+color2 = Color.BLUE
+
+if color1 == Color.RED:
+    print("color1 is red.")
+
+if color1 is Color.RED:
+    print("color1 is Color.RED")
+
+print(color1 == 1)
+print(color1.value == 1)
